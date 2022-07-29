@@ -1,0 +1,32 @@
+{
+  "name": "light-popup",
+  "version": "1.0.0",
+  "description": "a simple popup tool",
+  "main": "light-popup.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "popup"
+  ],
+  "author": "fwg",
+  "license": "ISC",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adf0001/light-popup.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adf0001/light-popup/issues"
+  },
+  "homepage": "https://github.com/adf0001/light-popup#readme",
+  "dependencies": {
+    "add-css-text": "^1.0.3",
+    "argument-options": "^1.0.1",
+    "drag-object": "^1.0.1",
+    "get-element-by-id": "^1.0.2",
+    "insert-adjacent-return": "^1.0.1"
+  }
+}

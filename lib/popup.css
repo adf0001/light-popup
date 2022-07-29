@@ -1,0 +1,54 @@
+.light-popup {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	text-align: center;
+}
+
+.light-popup-back {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	background: #eee;
+	opacity: 0.5;
+}
+
+.light-popup-body {
+	display: inline-block;
+	position: relative;
+	margin-top: 10%;
+	background: white;
+	border: 1px solid gray;
+	border-radius: 0.6em;
+	padding: 0.5em;
+	box-shadow: 0 0 30px gray;
+	text-align: left;
+	overflow: auto;
+}
+
+.light-popup-modal {
+	border-radius: 0px;
+}
+
+.light-popup-group {
+	border: 1px solid #ccc;
+	padding: 0.2em;
+	max-height: 10em;
+	overflow: auto;
+	max-width: 500px;
+}
+
+.light-popup-cmd {
+	padding: 0em 0.3em;
+	color: green;
+	cursor: pointer;
+	font-size: 9pt;
+}
+
+.light-popup-cmd:hover {
+	background: #eeeeee;
+}
