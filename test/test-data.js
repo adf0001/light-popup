@@ -1,6 +1,6 @@
 
 //global variable, for html page, refer tpsvr @ npm.
-light_popup = require("../light-popup.js");
+light_popup = require("../index.js");
 
 module.exports = {
 
@@ -31,7 +31,7 @@ module.exports = {
 			"</div>" +
 			"<button id='btnOpenPopup1' onclick=\"light_popup.show('divPopup1',{dragMode:'none'})\">popup-1, no drag</button> " +
 			"<button id='btnOpenPopup2' onclick=\"light_popup.show('divPopup2',1)\">popup-2, modal</button> " +
-			"<button id='btnOpenPopup3' onclick=\"light_popup.show('divPopup3',{modal:true,maximizeButton:true,cb:function(err,data){if(err||data)alert('popup3 at btn returned: error='+err+', data='+data);}})\">popup-3, stack</button> " +
+			"<button id='btnOpenPopup3' onclick=\"light_popup.show('divPopup3',{modal:true,maximizeButton:true,cb:function(err,data){if(err||data)alert('popup3 at btn returned: error='+err+', data='+data);}, cbEvent:(err,data)=>console.log(data)})\">popup-3, stack</button> " +
 			"";
 
 		_ele('btnOpenPopup1').click();
