@@ -52,3 +52,17 @@
 .light-popup-cmd:hover {
 	background: #eeeeee;
 }
+
+.light-popup-selected {
+	background: lavender;
+}
+
+.light-popup-list-item {
+	width: 100%;
+	display: block;
+	margin-bottom: 1px;
+}
+
+.light-popup-list-item:hover {
+	background: #eeeeee;
+}

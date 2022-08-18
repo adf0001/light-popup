@@ -1,6 +1,6 @@
 {
   "name": "light-popup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a simple popup tool",
   "main": "index.js",
   "scripts": {
@@ -24,10 +24,12 @@
   "homepage": "https://github.com/adf0001/light-popup#readme",
   "dependencies": {
     "add-css-text": "^1.0.3",
-    "argument-options": "^1.0.1",
     "drag-object": "^1.0.2",
     "ele-id": "^1.0.2",
     "get-element-by-id": "^1.0.2",
-    "insert-adjacent-return": "^1.0.1"
+    "insert-adjacent-return": "^1.0.1",
+    "query-by-attribute": "^1.0.1",
+    "query-by-name-path": "^1.0.1",
+    "set-class": "^1.0.3"
   }
 }
